@@ -25,28 +25,29 @@
 
 ## 🏗 Project Structure
 
-🏗 Architecture
 coin-tracker/
-├── public/               # Static assets
+├── public/ # Static assets
 ├── src/
-│   ├── components/       # Reusable UI components
-│   ├── features/         # Redux slices and API logic
-│   ├── pages/            # Route-based components
-│   ├── utils/            # Utility functions (formatting, etc.)
-│   ├── App.jsx           # Main app component
-│   └── main.jsx          # App entry point
-├── .env                  # Environment variables
-├── vite.config.js        # Build configuration
-└── package.json          # Project dependencies
+│ ├── components/ # Reusable UI components
+│ ├── features/ # Redux slices and API logic
+│ ├── pages/ # Route-based components
+│ ├── utils/ # Utility functions (formatting, etc.)
+│ ├── App.jsx # Main app component
+│ └── main.jsx # App entry point
+├── .env # Environment variables
+├── vite.config.js # Build configuration
+└── package.json # Project dependencies
+
 ## 🛠️ Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/coin-tracker.git
-cd coin-tracker
-Install dependencies:
+   git clone https://github.com/YOUR_USERNAME/coin-tracker.git
+   cd coin-tracker 
+   ```
+2.Install dependencies:
 
-bash
+```bash
 npm install
 Start development server:
 

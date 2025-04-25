@@ -1,13 +1,57 @@
-# React + Vite
+# 📈 Coin Tracker - Cryptocurrency Market Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Demo Video](./demo.gif)](https://your-demo-video-link.com)  
+*Click the image above to view demo video*
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Real-time cryptocurrency price tracking
+- Interactive watchlist management
+- 7-day price charts for each coin
+- Responsive design for all devices
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
 
-## Expanding the ESLint configuration
+### Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+![MaterialUI](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=mui&logoColor=white)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# CoinTracker
+### Backend/API
+![CoinGecko API](https://img.shields.io/badge/CoinGecko_API-8A2BE2?style=for-the-badge)
+
+### Build Tools
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+
+## 🏗 Project Structure
+
+🏗 Architecture
+coin-tracker/
+├── public/               # Static assets
+├── src/
+│   ├── components/       # Reusable UI components
+│   ├── features/         # Redux slices and API logic
+│   ├── pages/            # Route-based components
+│   ├── utils/            # Utility functions (formatting, etc.)
+│   ├── App.jsx           # Main app component
+│   └── main.jsx          # App entry point
+├── .env                  # Environment variables
+├── vite.config.js        # Build configuration
+└── package.json          # Project dependencies
+## 🛠️ Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/YOUR_USERNAME/coin-tracker.git
+cd coin-tracker
+Install dependencies:
+
+bash
+npm install
+Start development server:
+
+bash
+npm run dev
+Open in your browser:
+
+http://localhost:5173

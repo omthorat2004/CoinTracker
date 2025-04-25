@@ -1,0 +1,21 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card-item {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart-container {
+  width: 100%;
+  height: 100px;
+}

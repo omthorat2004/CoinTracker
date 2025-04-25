@@ -22,22 +22,35 @@
 
 ### Build Tools
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
-
+````markdown
 ## 🏗 Project Structure
 
+```text
 coin-tracker/
-├── public/ # Static assets
+├── public/
+│   ├── favicon.ico
+│   └── vite.svg
 ├── src/
-│ ├── components/ # Reusable UI components
-│ ├── features/ # Redux slices and API logic
-│ ├── pages/ # Route-based components
-│ ├── utils/ # Utility functions (formatting, etc.)
-│ ├── App.jsx # Main app component
-│ └── main.jsx # App entry point
-├── .env # Environment variables
-├── vite.config.js # Build configuration
-└── package.json # Project dependencies
-
+│   ├── components/
+│   │   ├── Chart.jsx
+│   │   ├── Navbar.jsx
+│   │   └── ...
+│   ├── features/
+│   │   └── coin/
+│   │       └── coinSlice.js
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   └── WatchList.jsx
+│   ├── utils/
+│   │   └── formatters.js
+│   ├── App.jsx
+│   └── main.jsx
+├── .env
+├── .gitignore
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
 ## 🛠️ Installation
 
 1. Clone the repository:

@@ -1,6 +1,6 @@
 # 📈 Coin Tracker - Cryptocurrency Market Dashboard
 
-[![Demo Video](./demo.gif)](https://your-demo-video-link.com)  
+[![Demo Video](./demo.gif)](https://drive.google.com/file/d/1jtDavWP10VaWpsKGgSIrI4WMvMDEWupC/view?usp=drive_link)  
 *Click the image above to view demo video*
 
 ## 🚀 Features
@@ -57,8 +57,8 @@ coin-tracker/
 
 1. Clone the repository:
 ```bash
-   git clone https://github.com/YOUR_USERNAME/coin-tracker.git
-   cd coin-tracker 
+   git clonehttps://github.com/omthorat2004/CoinTracker.git
+   cd CoinTracker 
    ```
 2.Install dependencies:
 

@@ -51,6 +51,8 @@ coin-tracker/
 ├── package.json
 ├── vite.config.js
 └── README.md
+
+```
 ## 🛠️ Installation
 
 1. Clone the repository:
